@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <com.example.movies.ui.common.AspectRatioImageView
+        android:id="@+id/movieCover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ratio="1.5"
+        android:scaleType="centerCrop"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+</LinearLayout>
