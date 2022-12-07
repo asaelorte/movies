@@ -8,3 +8,4 @@
    2. Transiciones/Animaciones. utilizaria MotionLayout
    3. Pruebas Unitarias. utilizaria JUnit y mokito
    
+   ![](https://github.com/asaelorte/movies/blob/main/moviesHome.jpeg)
